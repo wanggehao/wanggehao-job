@@ -1,0 +1,157 @@
+.header-c li:hover span{
+    display: inline;
+}
+.header-c .s1.active {
+    display: inline;
+}
+.header{
+    margin-bottom: 100px;
+}
+.main{
+    height: 520px;
+    margin-bottom: 100px;
+}
+.main-c{
+    position: relative;
+    width: 1200px;
+    height: 520px;
+    margin: 0 auto;
+}
+.main-c .text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 44px;
+}
+.main-c .cname{
+    position: relative;
+    font-size: 24px;
+    color: #3b3b3b;
+    z-index: 100000;
+}
+.main-c .ename{
+    font-size: 14px;
+    color: #c7c7c7;
+}
+.main-c .box{
+    position: absolute;
+    left: -25px;
+    top: 3px;
+    height: 13px;
+    width: 52px;
+    background: #04e4f8;
+}
+.main-c .img{
+    position: absolute;
+    left: 0;
+    bottom: 0  ;
+    width: 429px;
+    height: 430px;
+    background: url(../img/关于我们.png) no-repeat;
+}
+.concept{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    float: right;
+    width: 642px;
+    height: 430px;;
+    background: #fbfbfb;
+}
+.concept .concept-t{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+.concept-t .box1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-right: 36px;
+}
+.concept-t .cname{
+    font-size: 18px;
+    color: #373737;
+}
+.concept-t .ename{
+    font-size: 12px;
+    color: #494949;
+}
+.concept-t p{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 492px;
+   font-size: 14px;
+   color: #494949;
+   padding-left: 42px;
+   border-left: 1px solid #a5a5a9;
+}
+.concept .concept-b{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+.concept-b .box2{
+    position: absolute;
+    left: 0;
+    bottom: 18px;
+    margin-right: 24px;
+}
+.concept-b .cname{
+    font-size: 18px;
+    color: #373737;
+}
+.concept-b .ename{
+    font-size: 12px;
+    color: #494949;
+}
+.concept-b p{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 492px;
+   font-size: 14px;
+   color: #494949;
+   padding-left: 42px;
+   border-left: 1px solid #a5a5a9;
+}
+   
+
+
+
+.concept .concept-c{
+    position: absolute;
+    right: 0;
+    bottom: 206px;
+    width: 100%;
+}
+.concept-c .box3{
+    position: absolute;
+    left: 0;
+    bottom: 50%;
+    margin-bottom: -20px;
+    margin-right: 24px;
+}
+.concept-c .cname{
+    font-size: 18px;
+    color: #373737;
+}
+.concept-c .ename{
+    font-size: 12px;
+    color: #494949;
+}
+.concept-c p{
+    position: absolute;
+    right: 0;
+    bottom: 50%;
+    margin-bottom: -19.2px;
+    width: 492px;
+   
+   font-size: 14px;
+   color: #494949;
+   padding-left: 42px;
+   border-left: 1px solid #a5a5a9;
+}

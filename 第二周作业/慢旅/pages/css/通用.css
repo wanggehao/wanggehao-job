@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/* 头部 */
+.header{
+    height: 76px;
+    background: #fdfcfc;
+}
+.header-c{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.header-c .logo{
+    float: left;
+    width: 191px;
+    height: 100%;
+    background: url(../../img/logo.png) no-repeat center;
+ }
+ .header-c ul{
+    float: right;
+    height: 100%;
+    margin-right: -40px;
+ }
+ .header-c li{
+     position: relative;
+     float: left;
+     height: 100%;
+     line-height: 76px;
+ }
+ .header-c .a1{
+    text-align: center;
+    width: 145px;
+     display: block;
+     height: 100%;
+     font-size: 16px;
+     color: #818181;
+    /* margin-left: 81px; */
+ }
+ .header-c li span{
+    position: absolute;
+    bottom: 16px;
+    right: 40px;
+    display: none;
+    width: 64px;
+    height: 2px;
+    background: #00daed;
+ }
+ .header-c li .line{
+     position: absolute;
+     bottom: 16px;
+     right: 53px;
+     display: none;
+     width: 36px;
+     height: 2px;
+     background: #00daed;
+ }
+.header-c li div a{
+    display: block;
+     font-size: 14px;
+     color: #737375;
+     text-align: center;
+     line-height: 1;
+ }
+ li div{
+     display: none;
+     width: 84px;
+     height: 30.5px;
+     margin-left: 61px;
+     background: #f2f3f3;
+     margin: 0 auto;
+ }
+ .header-c li:hover div{
+     display: block;
+ }
+
+/* 底部 */
+.footer{
+    height: 380px;
+    background: #fff;
+}
+.footer-c{
+    position: relative;
+    width: 1200px;
+    height: 380px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.footer-c .phone{
+    position: absolute;
+    left:0;
+    bottom:0;
+    width: 600px;
+    height: 396px;
+}
+.phone h2{
+    line-height: 1;
+    font-size: 18px;
+    color: #5d5d5d;
+    margin-bottom: 54px;
+    padding-top: 62px;
+}
+.phone li{
+    line-height: 1;
+    font-size: 14px;
+    color: #9fa2a2;
+    margin-bottom: 22px;
+}
+.phone .email{
+    margin-bottom: 150px;
+}
+.phone .qq{
+    position: absolute;
+    left: 5px;
+    bottom: 111px;
+    width: 16px;
+    height: 17px;
+    background: url(../../img/QQ.png) no-repeat center;
+  
+}
+.phone .wx{
+    position: absolute;
+    left: 40px;
+    bottom: 111px;
+    float: left;
+    width: 20px;
+    height: 17px;
+    background: url(../../img/微信.png) no-repeat center;
+    
+}
+.phone .wb{
+    position: absolute;
+    left: 77px;
+    bottom: 112px;
+    width: 20px;
+    height: 17px;
+    background: url(../../img/微博\ .png) no-repeat center;
+ 
+}
+.phone p{
+    position: absolute;
+    left: 0;
+    bottom: 74px;
+    font-size: 14px;
+    color: #9fa2a2;
+}
+.footer-c .table{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 600px;
+    height: 100%;
+}
+.table p{
+    font-size: 14px;
+    color: #bfbdbd;
+}
+.table .name{
+    position: absolute;
+    left: 105px;
+    top: 82px;
+}
+.table input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #d4d3d3;
+    width: 133px;
+
+}
+.table input:focus{
+    outline: none;
+}
+.table .in1{
+    position: absolute;
+    left: 105px;
+    top: 129px;
+}
+.table .mail{
+    position: absolute;
+    left: 284px;
+    top: 82px;
+}
+.table .in2{
+    position: absolute;
+    left: 284px;
+    top: 129px;
+}
+.table .tel{
+    position: absolute;
+    right: 108px;
+    top: 82px;
+}
+.table .in3{
+    position: absolute;
+    right: 3px;
+    top: 129px;
+}
+.table .main{
+    position: absolute;
+    left: 105px;
+    bottom: 185px;
+}
+.table .in4{
+    position: absolute;
+    left: 105px;
+    bottom: 145px;
+}
+.table .in5{
+    position: absolute;
+    left: 101px;
+    bottom: 78px;
+    width: 61px;
+    height: 24px;
+    background: #474646;
+    color: #e0e0e0;
+    font-size: 14px;
+    cursor: pointer
+}
+.text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 40px;
+}
+.text .cname{
+    position: relative;
+    font-size: 24px;
+    color: #3b3b3b;
+    z-index: 100000;
+}
+.text .ename{
+    font-size: 14px;
+    color: #c7c7c7;
+}
+.text .box{
+    position: absolute;
+    left: -25px;
+    top: 3px;
+    height: 13px;
+    width: 52px;
+    background: #04e4f8;
+}

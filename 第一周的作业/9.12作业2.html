@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .box {
+        width: 1226px;
+        height: 460px;
+        background: url(https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/64070c0d2b1e6b69316c7b9fc9d3ec50.jpg?thumb=1&w=1533&h=575&f=webp&q=90) no-repeat center;
+        margin: 0 auto;
+        margin-top: 90px;
+        position: relative;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .wrs {
+        width: 234px;
+        height: 420px;
+        padding: 20px 0;
+        background-color: rgba(105, 101, 101, .6);
+
+    }
+
+    .wrs-list {
+        width: 234px;
+        height: 42px;
+        /* background: red; */
+        position: relative;
+    }
+
+    .wrs-list .links {
+        display: block;
+        height: 42px;
+        line-height: 42px;
+        padding-left: 30px;
+    }
+
+    .arr {
+        position: absolute;
+        right: 20px;
+        top: 13px;
+    }
+
+    .wrs-list:hover {
+        background-color: #FF6700;
+    }
+
+    .dot {
+        width: 400px;
+        height: 10px;
+        /* background-color: #FF6700; */
+        float: right;
+        position: absolute;
+        right: 30px;
+        bottom: 20px;
+    }
+
+    .dot-of {
+        float: right;
+
+        display: block;
+        width: 8px;
+        height: 8px;
+        background-color: rgba(0, 0, 0, .4);
+        border: 2px solid rgb(255, 255, 255, .5);
+        border-radius: 50%;
+        margin-left: 10px;
+
+    }
+
+    .dot .dot-list .dot-of:hover {
+        background: rgba(255, 255, 255, .5);
+        border-color: rgba(0, 0, 0, .4);
+    }
+
+    .dot .dot-list.active a {
+        border-color: rgba(0, 0, 0, .4);
+        background-color: rgba(255, 255, 255, .3);
+
+    }
+
+    .box .arr-l {
+        width: 41px;
+        height: 69px;
+        position: absolute;
+        top: 195px;
+        left: 234px;
+        background: url(img/arr.png) no-repeat;
+        /* background-color: red; */
+        background-position: -84px 0;
+
+    }
+
+    .box .arr-r {
+        width: 41px;
+        height: 69px;
+        position: absolute;
+        top: 195px;
+        right: 0;
+        background: url(img/arr.png) no-repeat;
+        /* background-color: red; */
+        background-position: -123px 0;
+
+    }
+
+    .box .arr-l:hover {
+        background-position: 0 0;
+
+    }
+
+    .box .arr-r:hover {
+        background-position: -43px 0;
+
+    }
+</style>
+
+<body>
+    <div class="box">
+        <ul class="wrs">
+            <li class="wrs-list"><a href="" class="links">手机 电话卡 <img src="./arrow.png" alt="" class="arr">
+                </a>
+            </li>
+            <li class="wrs-list"><a href="" class="links">手机 电话卡 <img src="./arrow.png" alt="" class="arr">
+                </a>
+            </li>
+            <li class="wrs-list"><a href="" class="links">手机 电话卡 <img src="./arrow.png" alt="" class="arr">
+                </a>
+            </li>
+            <li class="wrs-list"><a href="" class="links">手机 电话卡 <img src="./arrow.png" alt="" class="arr">
+                </a>
+            </li>
+            <li class="wrs-list"><a href="" class="links">手机 电话卡 <img src="./arrow.png" alt="" class="arr">
+                </a>
+            </li>
+            <li class="wrs-list"><a href="" class="links">手机 电话卡 <img src="./arrow.png" alt="" class="arr">
+                </a>
+            </li>
+            <li class="wrs-list"><a href="" class="links">手机 电话卡 <img src="./arrow.png" alt="" class="arr">
+                </a>
+            </li>
+            <li class="wrs-list"><a href="" class="links">手机 电话卡 <img src="./arrow.png" alt="" class="arr">
+                </a>
+            </li>
+            <li class="wrs-list"><a href="" class="links">手机 电话卡 <img src="./arrow.png" alt="" class="arr">
+                </a>
+            </li>
+            <li class="wrs-list"><a href="" class="links">手机 电话卡 <img src="./arrow.png" alt="" class="arr">
+                </a>
+            </li>
+        </ul>
+        <a href="#" class="arr-l">
+
+        </a>
+        <a href="#" class="arr-r"></a>
+        <ul class="dot">
+            <li class="dot-list">
+                <a href="" class="dot-of">
+
+                </a>
+            </li>
+            <li class="dot-list">
+                <a href="" class="dot-of">
+
+                </a>
+            </li>
+            <li class="dot-list">
+                <a href="" class="dot-of">
+
+                </a>
+            </li>
+            <li class="dot-list">
+                <a href="" class="dot-of">
+
+                </a>
+            </li>
+            <li class="dot-list active">
+                <a href="" class="dot-of">
+
+                </a>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="">
+        <fieldset>
+            <legend>账户信息</legend>
+            <p>用户名: <input type="text" name="usrename"></p>
+            <p>密&nbsp;&nbsp;&nbsp; 码: <input type="password" name="password"></p>
+            <p>性别:男 <input type="radio" name="sex" value="0">
+                女 <input name="sex" value="1" type="radio"></p>
+        </fieldset>
+        <fieldset>
+            <legend>公司信息</legend>
+            <p>公司名称: <input type="text"></p>
+            <p>公司所在地址:
+                <select name="sheng" id="">
+                    <option value="0">请选择</option>
+                    <option value="1">北京</option>
+                    <option value="2">河南</option>
+                </select>
+                <select name="shi" id="">
+                    <option value="0">请选择</option>
+                    <option value="1">北京</option>
+                    <option value="2">郑州</option>
+                </select>
+                <select name="qu" id="">
+                    <option value="0">请选择</option>
+                    <option value="1">朝阳</option>
+                    <option value="2">郑东新区</option>
+                </select>
+
+            </p>
+            <p>购买类型用途:IT <input type="checkbox">
+                通讯设备: <input type="checkbox">
+                通讯行业: <input type="checkbox">
+            </p>
+            <p>
+                公司行业:
+                <select name="line of business" id="">
+                    <option value="0">IT</option>
+                    <option value="1">通讯行业</option>
+                    <option value="3">电气行业</option>
+                </select>
+            </p>
+            <p>公司介绍: <textarea name="" id="" cols="30" rows="10"></textarea>
+            </p>
+            <p>营业执照上传 <input multipel type="file"></p>
+            <input type="image" src="reg.jpg">
+
+        </fieldset>
+    </form>
+</body>
+
+</html>

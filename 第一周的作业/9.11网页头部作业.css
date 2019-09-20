@@ -1,0 +1,85 @@
+*{
+    /* 通配符 */
+    padding: 0;
+    margin: 0;
+}
+.header{
+    /* 头部盒子 */
+    height: 70px;
+    background-color: #585D68;
+}
+.header .header1{
+    height: 100%;
+    width: 1200px;
+    margin:0 auto;
+    
+}
+.logo{
+    /* 背景图片 */
+    display: block;
+    width: 141px;
+    height: 100%;
+    background-image: url(../课件/01-html+css基础/03-html基础/dev/img/logo.png);
+    float: left;
+    background-repeat: no-repeat;
+    background-position:center;
+    margin:0 auto;
+}
+.header .list {
+    /* 列表 */
+    list-style: none;
+    /* display:inline-block; */
+    width: 107px;
+    line-height: 70px;
+    float: right;
+    text-align: center;
+    font-size: 14px;
+
+}
+.header .list-a{
+    text-decoration:none;
+    /* text-align: center; */
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 100%;
+    
+
+}
+/* 网页主体 */
+.d1{width: 1200px;
+    height: 800px;
+    background:pink;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+/* 导航栏 */
+.nav{
+    width: 100%;
+    height: 60px;
+    margin: 20px;
+    
+}
+.l1{
+    list-style: none;
+    float: left;
+    width: 152px;
+    height: 58px;
+    border: 1px #000 solid;
+    text-align: center;
+    line-height: 58px;
+    margin-right: 50px;
+    border-radius: 58px;
+
+}
+#l2{
+    margin-right: 0px;
+}
+.a1{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 100%;
+}

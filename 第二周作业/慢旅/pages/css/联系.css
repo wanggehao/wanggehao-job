@@ -1,0 +1,50 @@
+.header-c li:hover span{
+    display: inline;
+}
+.header-c .s1.active {
+    display: block;
+}
+.header{
+    margin-bottom: 100px;
+}
+.main{
+    height: 430px;
+    margin-bottom: 100px;
+}
+.main-c{
+    position: relative;
+    width: 1200px;
+    height: 430px;
+    margin: 0 auto;
+}
+.main-c .text{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-bottom: 44px;
+}
+.main-c .cname{
+    position: relative;
+    font-size: 24px;
+    color: #3b3b3b;
+    z-index: 100000;
+}
+.main-c .ename{
+    font-size: 14px;
+    color: #c7c7c7;
+}
+.main-c .box{
+    position: absolute;
+    left: -25px;
+    top: 3px;
+    height: 13px;
+    width: 52px;
+    background: #04e4f8;
+}
+.main-c .img{
+    position: absolute;
+    bottom: 0;
+    width: 1200px;
+    height: 343px;
+    background: url(../../img/地图.png) no-repeat center;
+}

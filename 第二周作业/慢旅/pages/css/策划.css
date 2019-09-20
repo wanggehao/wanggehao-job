@@ -1,0 +1,424 @@
+.header-c li:hover span{
+    display: inline;
+}
+.header-c .s1.active {
+    display: inline;
+}
+/* 内容 */
+.planning{
+    height: 1096px;
+    margin-top: 100px;
+}
+.planning-c{
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+.special{
+    margin-bottom: 70px;
+}
+.special .cname{
+    font-size: 22px;
+    color: #323232;
+}
+.special .ename{
+    font-size: 16px;
+    color: #b7b1b1;
+}
+.top{
+    width: 1200px;
+    height: 250px;
+    margin-bottom: 69px;
+}
+/* 云南 */
+.top .yunnan{
+    position: relative;
+    float: left;
+    width: 550px;
+    height: 250px;
+    margin-right: 100px;
+}
+
+.yunnan .img{
+    float: left;
+    width: 349px;
+    height: 250px;
+    background: url(../../img/海鸥图.png) no-repeat center;
+}
+.chengdu .img{
+    float: left;
+    width: 340px;
+    height: 250px;
+    background: url(../img/灯笼.png) no-repeat center;
+}
+
+.yunnan h2{
+    position: absolute;
+    left: 374px;
+    top: 30px;
+    float: left;
+    width: 200px;
+    font-size: 16px;
+    color: #3a3a3a;
+
+}
+.yunnan p{
+    position: absolute;
+    left: 374px;
+    bottom: 53px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #727171
+}
+.yunnan .traffic{
+    bottom: 100px;
+}
+.yunnan .price{
+    font-weight: bolder;
+   top: 57px;
+    color: #727171;
+}
+.yunnan .label{
+    position: absolute;
+    left: 374px;
+    top: 81px;
+    width: 200px;
+    height: 20px;
+
+}
+.yunnan span{
+ float: left;
+ font-size: 14px;
+ text-align: center;
+ width: 42px;
+ height: 19px;
+ color: #474646;
+ border: 1px solid #333;
+ margin-left: 5px;
+ border-radius: 3px;
+}
+.yunnan .s1{
+    margin-left: 0;
+}
+/* 成都 */
+.top .chengdu{
+    position: relative;
+    float: left;
+    width: 550px;
+    height: 250px;
+}
+.chengdu h2{
+    position: absolute;
+    left: 374px;
+    top: 30px;
+    float: left;
+    width: 200px;
+    font-size: 16px;
+    color: #3a3a3a;
+
+}
+.chengdu p{
+    position: absolute;
+    left: 374px;
+    bottom: 53px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #727171
+}
+.chengdu .traffic{
+    bottom: 100px;
+}
+.chengdu .price{
+    font-weight: bolder;
+   top: 57px;
+    color: #727171;
+}
+.chengdu .label{
+    position: absolute;
+    left: 374px;
+    top: 81px;
+    width: 200px;
+    height: 20px;
+
+}
+.chengdu span{
+ float: left;
+ font-size: 14px;
+ text-align: center;
+ width: 42px;
+ height: 19px;
+ color: #474646;
+ border: 1px solid #333;
+ margin-left: 5px;
+ border-radius: 3px;
+}
+.chengdu .s1{
+    margin-left: 0;
+}
+/* 青海 */
+.center{
+    height: 250px;
+    margin-bottom: 69px;
+}
+.center .qinghai{
+    position: relative;
+    float: left;
+    width: 550px;
+    height: 250px;
+    margin-right: 100px;
+}
+
+.qinghai .img{
+    float: left;
+    width: 349px;
+    height: 250px;
+    background: url(../../img/雪山.jpg) no-repeat center;
+}
+
+.qinghai h2{
+    position: absolute;
+    left: 374px;
+    top: 30px;
+    float: left;
+    width: 200px;
+    font-size: 16px;
+    color: #3a3a3a;
+
+}
+.qinghai p{
+    position: absolute;
+    left: 374px;
+    bottom: 53px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #727171
+}
+.qinghai .traffic{
+    bottom: 100px;
+}
+.qinghai .price{
+    font-weight: bolder;
+   top: 57px;
+    color: #727171;
+}
+.qinghai .label{
+    position: absolute;
+    left: 374px;
+    top: 81px;
+    width: 200px;
+    height: 20px;
+
+}
+.qinghai span{
+ float: left;
+ font-size: 14px;
+ text-align: center;
+ width: 42px;
+ height: 19px;
+ color: #474646;
+ border: 1px solid #333;
+ margin-left: 5px;
+ border-radius: 3px;
+}
+.qinghai .s1{
+    margin-left: 0;
+}
+/* 鼓浪屿 */
+
+.center .gulangyu{
+    position: relative;
+    float: left;
+    width: 550px;
+    height: 250px;
+}
+
+.gulangyu .img{
+    float: left;
+    width: 349px;
+    height: 250px;
+    background: url(../img/鼓浪屿.png) no-repeat center;
+}
+
+.gulangyu h2{
+    position: absolute;
+    left: 374px;
+    top: 30px;
+    float: left;
+    width: 200px;
+    font-size: 16px;
+    color: #3a3a3a;
+
+}
+.gulangyu p{
+    position: absolute;
+    left: 374px;
+    bottom: 53px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #727171
+}
+.gulangyu .traffic{
+    bottom: 100px;
+}
+.gulangyu .price{
+    font-weight: bolder;
+   top: 57px;
+    color: #727171;
+}
+.gulangyu .label{
+    position: absolute;
+    left: 374px;
+    top: 81px;
+    width: 200px;
+    height: 20px;
+
+}
+.gulangyu span{
+ float: left;
+ font-size: 14px;
+ text-align: center;
+ width: 42px;
+ height: 19px;
+ color: #474646;
+ border: 1px solid #333;
+ margin-left: 5px;
+ border-radius: 3px;
+}
+.gulangyu .s1{
+    margin-left: 0;
+}
+/* 西安 */
+.bottom{
+    height: 250px;
+    margin-bottom: 101px;
+}
+.bottom .xian{
+    position: relative;
+    float: left;
+    width: 550px;
+    height: 250px;
+    margin-right: 100px;
+}
+
+.xian .img{
+    float: left;
+    width: 349px;
+    height: 250px;
+    background: url(../img/西安.png) no-repeat center;
+}
+
+.xian h2{
+    position: absolute;
+    left: 374px;
+    top: 30px;
+    float: left;
+    width: 200px;
+    font-size: 16px;
+    color: #3a3a3a;
+
+}
+.xian p{
+    position: absolute;
+    left: 374px;
+    bottom: 53px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #727171
+}
+.xian .traffic{
+    bottom: 100px;
+}
+.xian .price{
+    font-weight: bolder;
+   top: 57px;
+    color: #727171;
+}
+.xian .label{
+    position: absolute;
+    left: 374px;
+    top: 81px;
+    width: 200px;
+    height: 20px;
+
+}
+.xian span{
+ float: left;
+ font-size: 14px;
+ text-align: center;
+ width: 42px;
+ height: 19px;
+ color: #474646;
+ border: 1px solid #333;
+ margin-left: 5px;
+ border-radius: 3px;
+}
+.xian .s1{
+    margin-left: 0;
+}
+
+
+/* 长白山 */
+
+.bottom .changbaishan{
+    position: relative;
+    float: left;
+    width: 550px;
+    height: 250px;
+}
+
+.changbaishan .img{
+    float: left;
+    width: 349px;
+    height: 250px;
+    background: url(../img/图长白山.png) no-repeat center;
+}
+
+.changbaishan h2{
+    position: absolute;
+    left: 374px;
+    top: 30px;
+    float: left;
+    width: 200px;
+    font-size: 16px;
+    color: #3a3a3a;
+
+}
+.changbaishan p{
+    position: absolute;
+    left: 374px;
+    bottom: 53px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #727171
+}
+.changbaishan .traffic{
+    bottom: 100px;
+}
+.changbaishan .price{
+    font-weight: bolder;
+   top: 57px;
+    color: #727171;
+}
+.changbaishan .label{
+    position: absolute;
+    left: 374px;
+    top: 81px;
+    width: 200px;
+    height: 20px;
+
+}
+.changbaishan span{
+ float: left;
+ font-size: 14px;
+ text-align: center;
+ width: 42px;
+ height: 19px;
+ color: #474646;
+ border: 1px solid #333;
+ margin-left: 5px;
+ border-radius: 3px;
+}
+.changbaishan .s1{
+    margin-left: 0;
+}

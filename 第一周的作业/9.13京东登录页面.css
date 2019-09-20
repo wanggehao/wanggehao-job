@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+/* 头部开始 */
+.header{
+    height: 80px;
+    background:#fff;
+}
+.header .header-bx{
+    position: relative;
+    margin: 0 auto;
+    width: 990px;
+    height: 80px;
+}
+.header-bx .logo{
+    float: left;
+    width: 170px;
+    height: 80px;
+    background: url(./img/logo.png) no-repeat left;
+}
+.header-bx .logon{
+    float: left;
+    width: 110px;
+    height: 40px;
+    background: url(./img/wel.png) no-repeat ;
+    margin-top:35px;
+    margin-left:30px;
+}
+.header-bx .dl{
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    padding-left: 19px;
+    background: url(./img/q-icon.png) no-repeat ;
+    font-size: 12px;
+    color: gray;
+}
+.header-bx .dl:hover{
+    color: #E93854;
+    text-decoration: underline;
+}
+/* 头部结束 */
+/* 内容部分 */
+
+.prompt{
+    position: relative;
+    height: 40px;
+    background: #FFF8F0;
+    font-size: 12px;
+    text-align: center;
+    line-height: 40px;
+}
+.poromt-logo{
+    vertical-align:-4px;
+    width: 16px;
+    height: 16px;
+}
+.content{
+   
+    background: #060000;
+    height: 475px;
+
+}
+/* 图片 */
+.content .img{
+    position: relative;
+    background: url(./img/jd-zq.jpg) no-repeat center;
+    width: 990px;
+    height: 475px;
+    margin: 0 auto;
+}
+/* 登录部分 */
+.content .usr{
+    position: absolute;
+    right:0px ;
+    top: 10px;
+    width: 346px;
+    height: 400px;
+    background: #FFF;
+}
+/* 提醒部分 */
+.prompt1{
+    width: 346px;
+    height: 40px;
+    background: #FFF8F0;
+    font-size: 12px;
+    text-align: center;
+    Line-height: 40PX
+}
+.prompt1 .icon{
+    vertical-align:-4px;
+    width: 16px;
+    height: 16px;
+    
+}
+/* 登录栏部分 */
+.content .tabs{
+    position: relative;   
+    width: 346px;
+    height: 54px;
+    background: #fff;
+    border-bottom: 1px solid gray;
+    margin-bottom: 33px; 
+}
+.tabs .tabs-l{
+    float: left;
+    width: 172.5px;
+    height: 100%;
+    font-size: 22px;
+    text-align: center;
+    line-height: 54px;
+    cursor: pointer;
+    color:gray;
+}
+.tabs .tabs-r{
+    float: left;
+    width: 172.5px;
+    height: 100%;
+    font-size: 22px;
+    text-align: center;
+    line-height: 54px;
+    cursor: pointer;
+    color:gray;
+}
+.tabs .tabs-r:hover{
+    color: #E93854;
+    font-weight: bolder;
+}
+.tabs .tabs-l:hover{
+    color: #E93854;
+    font-weight: bolder;
+}
+.tabs .active{
+    color: #E93854;
+    font-weight: bolder;
+}
+.tabs span{
+    position: absolute;
+    left: 172.5px;
+    top: 15px;
+    width: 1px;
+    height: 25px;
+    background: black;
+}
+/* 登录栏结束 */
+
+/* 账号密码输入栏 */
+.text{
+    position: relative;
+    width: 304px;
+    height: 38px;
+    margin: 0 20px 20px;
+
+}
+.text .text-img{
+    position: absolute;
+    left: 0px;
+    top: 0;
+    background: url(./img/pwd-icons-new.png) no-repeat;
+    background-position: 0 0;
+    width: 38px;
+    height: 38px;
+    border: 1px solid;
+
+}
+.text .text-word{
+    width: 256px;
+     padding: 10px 0 10px 50px;
+     outline: none;
+}
+.text .text-word:focus+.text-img{
+    background-position:0 -48px;
+}
+.code{
+    position: relative;
+    width: 304px;
+    height: 38px;
+    margin: 0 20px 20px;
+
+}
+.code .code-word{
+    width: 256px;
+    padding: 10px 0 10px 50px;
+    outline: none;
+}
+.code .code-img{
+    position: absolute;
+    left: 0px;
+    top: 0;
+    background: url(./img/pwd-icons-new.png) no-repeat;
+    background-position: -48px 0;
+    width: 38px;
+    height: 38px;
+    border: 1px solid;
+}
+.code .code-word:focus+.code-img{
+    background-position: -48px -48px;
+}
+.usr .forget{
+    position: absolute;
+    right: 20px;
+    color: gray;
+    font-size: 12px;
+}
+.forget:hover{
+    color: red;
+    text-decoration: underline;
+}
+/* 登录点击栏 */
+.click{
+    width: 306px;
+    height: 33px;
+    background-color: red;
+    color:#fff;
+    text-align: center;
+    line-height: 33px;
+    margin: 50px 20px 0 20px;
+    cursor: pointer;
+}
+/* 登录方式及注册 */
+.qq{
+    width: 48px;
+    height: 20px;
+    position: absolute;
+    left: 12px;
+    margin-top: 58px
+}
+.qq .logo{
+    position: absolute;
+    left: 12px;
+    top: 2px;
+    width: 18px;
+    height: 18px;
+    background: url(./img/qq-wx.png) no-repeat;
+    background-position: 0 0;
+}
+.qq a{
+    position: absolute;
+    left: 30px;
+    color: black;
+    font-size: 14px;
+}
+.qq a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.wx{
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    left: 120px;
+    margin-top: 58px
+}
+.wx .logo{
+    position: absolute;
+    left: 10px;
+    top: 2px;
+    width: 18px;
+    height: 18px;
+    background: url(./img/qq-wx.png) no-repeat;
+    background-position: -20px 0;
+}
+.wx a{
+    position: absolute;
+    left: 30px;
+    color: black;
+    font-size: 14px;
+}
+.wx a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.usr .s1{
+    position: absolute;
+    left: 96px;
+    bottom: 18px;
+    width: 1px;
+    height: 14px;
+    background: black;
+}
+.zc{
+    position: absolute;
+    right: 12px;
+    width: 65px;
+    margin-top:29px; 
+    font-size: 14px;
+    
+}
+.zc a{
+    color: gray;
+}
+.zc .logo{
+    position: absolute;
+    right: 74px;
+    background:url(./img/pwd-icons-new.png) no-repeat;
+    background-position: -104px -73px;
+    width: 18px;
+    height: 18px;
+    margin-top: 29px;
+}
+.zc a:hover{
+    color: red;
+    text-decoration: underline;
+}
+/* 内容结束 */
+/* 底部开始 */
+.footer{
+    height: 85px;
+    margin-top: 20px;
+}
+.footer-bx{
+    width: 990px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.box a{
+   margin: 10px;
+   font-size: 14px;
+   color: #333;
+
+
+}
+.box a:hover{
+    color: red;
+    text-decoration: underline;
+
+}
+.footer p{
+    font-size: 14px;
+    text-align: center;
+    margin-top:10px;
+}

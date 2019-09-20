@@ -1,0 +1,45 @@
+.header-c li:hover span{
+    display: inline;
+}
+.header-c .s1.active {
+    display: inline;
+}
+.header{
+    margin-bottom: 97px;
+}
+.banner{
+    height: 494px;
+    margin-bottom: 100px;
+}
+.banner-c{
+    width: 1200px;
+    height: 494px;
+    margin:0 auto;
+}
+.banner-c .service{
+    float: left;
+    width: 287px;
+    height: 494px;
+    background: url(../img/客服.png) no-repeat;
+    margin-right: 17px;
+}
+.banner-c .phone{
+    float: left;
+    width: 287px;
+    height: 494px;
+    background: url(../img/回访.png) no-repeat;
+    margin-right: 17px;
+}
+.banner-c .custom{
+    float: left;
+    width: 287px;
+    height: 494px;
+    background: url(../img/定制.png) no-repeat;
+    margin-right: 17px;
+}
+.banner-c .enjoy{
+    float: left;
+    width: 287px;
+    height: 494px;
+    background: url(../img/享受.png) no-repeat;
+}

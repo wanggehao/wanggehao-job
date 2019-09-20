@@ -1,0 +1,263 @@
+.header-c li:hover span{
+    display: inline;
+}
+.header-c .s1.active {
+    display: inline;
+}
+.header{
+    margin-bottom: 100px;
+}
+.top {
+    height: 274px;
+    margin-bottom: 76px;
+}
+.top-c{
+    position: relative;
+    height: 274px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.top .text{
+    margin-bottom: 0;
+}
+.top-c .text h2{
+    position: absolute;
+    top: 85px;
+    left: -4px;
+    width: 89px;
+    height: 41px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 41px;
+    color: #fff;
+    background: #5ad0dc;
+    border: 1px solid #4ec5d1;
+}
+.img-l{
+    position: absolute;
+    width: 440px;
+    height: 275px;
+}
+.img-l .img{
+    float: left;
+    margin-left: 116px;
+    width: 324px;
+    height: 200px;
+    background: url(../img/京都岚山.png) no-repeat center;
+}
+.img-l h2{
+    float: left;
+    font-size: 16.14px;
+    color: #434545;
+    margin-top: 18px;
+    margin-left: 116px;
+}
+.img-l p{
+    float: left;
+    font-size: 15.55px;
+    color: #434545;
+    margin-left: 116px;
+}
+.img-l span{
+    position: absolute;
+    bottom: 0;
+    left: 118px;
+    height: 1px;
+    width: 308px;
+    background: #7e8080;
+}
+.img-c{
+    position: absolute;
+    top: 0;
+    left: 508px;
+    width: 310px;
+    height: 275px;
+}
+.img-c .img{
+    width: 310px;
+    height: 202px;
+    background: url(../../img/未标题-2.png) no-repeat center;
+}
+.img-c h2{
+    font-size: 16.14px;
+    color: #434545;
+    margin-top: 18px;
+}
+.img-c p{
+    float: left;
+    font-size: 15.55px;
+    color: #434545;
+}
+.img-c span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 308px;
+    background: #7e8080;
+}
+.img-r{
+    position: absolute;
+    top: 0;
+    right: 6px;
+    width: 310px;
+    height: 275px;
+}
+.img-r .img{
+    width: 310px;
+    height: 202px;
+    background: url(../../img/圣托里尼.png) no-repeat center;
+}
+.img-r h2{
+    font-size: 16.14px;
+    color: #434545;
+    margin-top: 18px;
+}
+.img-r p{
+    float: left;
+    font-size: 15.55px;
+    color: #434545;
+}
+.img-r span{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 1px;
+    width: 308px;
+    background: #7e8080;
+}
+.center {
+    height: 274px;
+    margin-bottom: 76px;
+}
+.center-c{
+    position: relative;
+    height: 274px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.center .text{
+    margin-bottom: 0;
+}
+.center-c .text h2{
+    position: absolute;
+    top: 85px;
+    left: -4px;
+    width: 89px;
+    height: 41px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 41px;
+    color: #434545;
+    border: 1px solid #c2c7cc;
+}
+.center .img-l .img{
+    width: 310px;
+    height: 202px;
+    background: url(../img/西北.png) no-repeat center;
+}
+.center .img-c .img{
+    width: 310px;
+    height: 202px;
+    background: url(../img/东北.png) no-repeat center;
+}
+.center .img-r .img{
+    width: 310px;
+    height: 202px;
+    background: url(../img/东方夏威夷.png) no-repeat center;
+}
+.bottom {
+    height: 274px;
+
+}
+.bottom-c{
+    position: relative;
+    height: 274px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.bottom .text{
+    margin-bottom: 0;
+}
+.bottom-c .text h2{
+    position: absolute;
+    top: 85px;
+    left: -4px;
+    width: 89px;
+    height: 41px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 41px;
+    color: #434545;
+    border: 1px solid #c2c7cc;
+}
+.bottom .img-l .img{
+    width: 310px;
+    height: 202px;
+    background: url(../img/梦幻乐园.png) no-repeat center;
+}
+.bottom .img-c .img{
+    width: 310px;
+    height: 202px;
+    background: url(../img/银链挂天.png) no-repeat center;
+}
+.bottom .img-r .img{
+    width: 310px;
+    height: 202px;
+    background: url(../img/洛阳.png) no-repeat center;
+}
+.more {
+    height: 194px;
+}
+.more .more-c{
+    position: relative;
+    height: 194px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.more-c .box{
+    position: absolute;
+    left: 515px;;
+    top: 66px;
+}
+.more-c .box a{
+    font-size: 18px;
+    color: #434545;
+    line-height: 1;
+}
+.more-c .box span{
+   position: absolute;
+   left:163px ;
+   top: 7px;
+   width: 2px;
+   height: 2px;
+   background: #434545;
+   margin-left: 2px;
+}
+.more-c .a2{
+    font-size: 18px;
+    color: #434545;
+    position: absolute;
+    top: 53px;
+    right: 418px;
+    text-align: center;
+    line-height: 41px;
+    width: 89px;
+    height: 41px;
+    border: 1px solid #c2c7cc;
+}
+.more-c .box .s1{
+    position: absolute;
+    left: 152px;
+}
+.more-c .box .s2{
+    position: absolute;
+    left: 148px;
+}
+.more-c .box .s3{
+    position: absolute;
+    left: 144px;
+}
+.more-c .box .a1.active{
+    color: #8feffa;
+}

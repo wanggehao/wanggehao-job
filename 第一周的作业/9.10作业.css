@@ -1,0 +1,40 @@
+.div1{ 
+    width: 900px;
+    height: 600px;
+    background-color:#008c8c;
+    margin: 0 auto;
+    
+}
+.div2{
+    text-align:center;
+}
+.span1{
+    color: darkgrey;
+    font-size: 15px;
+    
+}
+.span2{
+    color: #ff0000;
+    font-size: 15px;
+}
+h1{
+    text-align: center;
+}
+.a1{
+    color: pink;
+}
+.input1{
+    color: #ff0000;
+    font-size: 12px;
+}
+.input2{
+    color: #ff0000;
+    font-size: 12px;
+}
+.div3{
+    background-color:#ff0000;
+    height: 220px;
+}
+p{
+    text-indent: 2em;
+}
