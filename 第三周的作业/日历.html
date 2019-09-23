@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        tr {
+            display: block;
+            border-bottom: 1px solid #BFBFC3;
+            width: 379px;
+            height: 46px;
+        }
+
+        th {
+            float: left;
+            width: 48px;
+            height: 40px;
+            border: 2px solid transparent;
+            cursor: pointer;
+        }
+
+        th:hover {
+
+            border: 2px solid #FFBB00;
+        }
+
+        th:nth-last-child(-1n+2) {
+            color: red;
+        }
+
+        th:nth-last-child(-1n+2) div {
+            color: #BFBFC3;
+        }
+
+        tr th div {
+            font-size: 10px;
+            margin-top: 4px;
+        }
+
+        form {
+            width: 600px;
+            height: 500px;
+            border: 1px #000 solid;
+        }
+
+        table {
+
+            margin: 0 auto;
+        }
+
+
+        .th2:nth-last-child(-1n+2) {
+            color: red;
+        }
+
+        .th1:nth-child(-1n+6) {
+            color: #BFBFC3;
+        }
+
+        .th3:nth-last-child(-1n+3) {
+            background: #FFF0F0;
+        }
+
+        .th3:nth-child(5n) div {
+            color: red;
+        }
+
+        .th7:nth-last-child(-1n+6) {
+            color: #BFBFC3;
+            background: #FFF0F0;
+        }
+
+        th:active {
+            border: 2px solid #ffbb00;
+        }
+
+
+        tr .active {
+            background: #FFBB00;
+            border: 2px solid #ffbb00;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <caption>日历</caption>
+        <tr id="tr1">
+            <th>一</th>
+            <th>二</th>
+            <th>三</th>
+            <th>四</th>
+            <th>五</th>
+            <th class="th2">六</th>
+            <th class="th2">日</th>
+        </tr>
+        <tr>
+            <th class="th1">26
+                <div>廿六</div>
+            </th>
+            <th class="th1">27
+                <div>廿七</div>
+            </th>
+            <th class="th1">28
+                <div>廿八</div>
+            </th>
+            <th class="th1">29
+                <div>廿九</div>
+            </th>
+            <th class="th1">30
+                <div>初一</div>
+            </th>
+            <th class="th1">31
+                <div>初二</div>
+            </th>
+            <th>01
+                <div>初三</div>
+            </th>
+        </tr>
+        <tr>
+            <th>02 <div>初四</div>
+            </th>
+            <th>03 <div>初五</div>
+            </th>
+            <th>04 <div>初六</div>
+            </th>
+            <th>05 <div>初七</div>
+            </th>
+            <th>06 <div>初八</div>
+            </th>
+            <th>07 <div>初九</div>
+            </th>
+            <th>08 <div>初十</div>
+            </th>
+        </tr>
+        <tr>
+            <th class="th3">09 <div>十一</div>
+            </th>
+            <th class="th3">10 <div>教师节</div>
+            </th>
+            <th class="th3">11 <div>十三</div>
+            </th>
+            <th class="th3">12 <div>十四</div>
+            </th>
+            <th class="th3">13 <div>中秋节</div>
+            </th>
+            <th class="th3">14 <div>十六</div>
+            </th>
+            <th class="th3">15 <div>十七</div>
+            </th>
+        </tr>
+        <tr>
+            <th>16 <div>十八</div>
+            </th>
+            <th>17 <div>十九</div>
+            </th>
+            <th>18 <div>二十</div>
+            </th>
+            <th>19 <div>廿一</div>
+            </th>
+            <th>20 <div>廿二</div>
+            </th>
+            <th>21 <div>廿三</div>
+            </th>
+            <th>22 <div>廿四</div>
+            </th>
+        </tr>
+        <tr>
+            <th>23 <div>廿五</div>
+            </th>
+            <th class="active">24 <div>廿六</div>
+            </th>
+            <th>25 <div>廿七</div>
+            </th>
+            <th>26 <div>廿八</div>
+            </th>
+            <th>27 <div>廿九</div>
+            </th>
+            <th>28 <div>初一</div>
+            </th>
+            <th>29 <div>初二</div>
+            </th>
+        </tr>
+        <tr>
+            <th class="th7">31 <div>初三</div>
+            </th>
+            <th class="th7">01 <div>国庆节</div>
+            </th>
+            <th class="th7">02 <div>初五</div>
+            </th>
+            <th class="th7">03 <div>初六</div>
+            </th>
+            <th class="th7">04 <div>初七</div>
+            </th>
+            <th class="th7">05 <div>初八</div>
+            </th>
+            <th class="th7">06 <div>初九</div>
+            </th>
+        </tr>
+    </table>
+</body>
+
+</html>

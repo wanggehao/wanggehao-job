@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box {
+            position: relative;
+            width: 400px;
+            height: 700px;
+            margin: 0 auto;
+
+        }
+
+        .head {
+            position: absolute;
+            top: 20px;
+            left: 100px;
+            width: 200px;
+            height: 100px;
+            background: #98C13B;
+            border-radius: 100px 100px 0 0;
+        }
+
+        .eyes-l {
+            position: absolute;
+            left: 55px;
+            top: 43px;
+            width: 15px;
+            height: 15px;
+            background: #fff;
+            border-radius: 50%;
+        }
+
+        .eyes-r {
+            position: absolute;
+            right: 55px;
+            top: 43px;
+            width: 15px;
+            height: 15px;
+            background: #fff;
+            border-radius: 50%;
+        }
+
+        .feeler-l {
+            position: absolute;
+            left: 5px;
+            top: 10px;
+            width: 70px;
+            height: 8px;
+            background: #98C13B;
+            border-radius: 3px 0 0 3px;
+            transform: rotate(45deg);
+        }
+
+        .feeler-r {
+            position: absolute;
+            right: 5px;
+            top: 10px;
+            width: 70px;
+            height: 8px;
+            background: #98C13B;
+            border-radius: 3px 0 0 3px;
+            transform: rotate(135deg);
+        }
+
+        .body {
+            position: absolute;
+            top: 130px;
+            left: 100px;
+            width: 200px;
+            height: 210px;
+            background: #98C13B;
+            border-radius: 0 0 10px 10px;
+
+        }
+
+        .hand-l {
+            position: absolute;
+            top: 130px;
+            left: 40px;
+            width: 40px;
+            height: 150px;
+            background: #98C13B;
+            border-radius: 20px;
+        }
+
+        .hand-r {
+            position: absolute;
+            top: 130px;
+            right: 40px;
+            width: 40px;
+            height: 150px;
+            background: #98C13B;
+            border-radius: 20px;
+        }
+
+        .foot-l {
+            position: absolute;
+            top: 340px;
+            left: 130px;
+            width: 40px;
+            height: 100px;
+            background: #98C13B;
+            border-radius: 0 0 20px 20px;
+        }
+
+        .foot-r {
+            position: absolute;
+            top: 340px;
+            right: 130px;
+            width: 40px;
+            height: 100px;
+            background: #98C13B;
+            border-radius: 0 0 20px 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="head">
+            <div class="eyes-l"></div>
+            <div class="eyes-r"></div>
+            <div class="feeler-l"></div>
+            <div class="feeler-r"></div>
+        </div>
+        <div class="body"></div>
+        <div class="hand-l"></div>
+        <div class="hand-r"></div>
+        <div class="foot-l"></div>
+        <div class="foot-r"></div>
+    </div>
+</body>
+
+</html>
