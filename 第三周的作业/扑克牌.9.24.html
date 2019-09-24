@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        div {
+            position: relative;
+            width: 310px;
+            height: 443px;
+            margin: 100px auto;
+        }
+
+        img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            border: 1px solid #000;
+        }
+
+        img {
+            transition: all ease .5s;
+            transform-origin: center bottom;
+        }
+
+        div:hover img:first-child {
+            transform: rotate(-40deg);
+
+        }
+
+        div:hover img:nth-child(2) {
+            transform: rotate(-30deg);
+        }
+
+        div:hover img:nth-child(3) {
+            transform: rotate(-20deg);
+        }
+
+        div:hover img:nth-child(4) {
+            transform: rotate(-10deg);
+        }
+
+        div:hover img:nth-child(6) {
+            transform: rotate(10deg);
+        }
+
+        div:hover img:nth-child(7) {
+            transform: rotate(20deg);
+        }
+
+        div:hover img:nth-child(8) {
+            transform: rotate(30deg);
+        }
+
+        div:hover img:nth-child(9) {
+            transform: rotate(40deg);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="./img/pk1.png" alt="">
+        <img src="./img/pk1.png" alt="">
+        <img src="./img/pk1.png" alt="">
+        <img src="./img/pk1.png" alt="">
+        <img src="./img/pk1.png" alt="">
+        <img src="./img/pk1.png" alt="">
+        <img src="./img/pk1.png" alt="">
+        <img src="./img/pk1.png" alt="">
+        <img src="./img/pk1.png" alt="">
+    </div>
+</body>
+
+</html>

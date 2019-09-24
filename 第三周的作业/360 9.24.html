@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            background: green;
+
+        }
+
+        div {
+            width: 440px;
+            height: 500px;
+            margin: 100px auto;
+
+        }
+
+        div img {
+            transition: all ease .5s;
+        }
+
+        img:first-child {
+            transform: translate(50px, 60px) rotate(120deg);
+        }
+
+        img:nth-child(-2n+2) {
+            transform: translate(200px, 200px) rotate(90deg);
+        }
+
+        img:nth-child(3) {
+            transform: translate(100px, 80px) rotate(128deg);
+        }
+
+        img:nth-child(4) {
+            transform: translate(150px, 200px) rotate(60deg);
+        }
+
+        div:hover img {
+            transform: translate(0, 0) rotate(0);
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="./img/shield_1_01.png" alt="">
+        <img src="./img/shield_1_02.png" alt="">
+        <img src="./img/shield_1_03.png" alt="">
+        <img src="./img/shield_1_04.png" alt="">
+        <img src="./img/shield_1_05.png" alt="">
+        <img src="./img/shield_1_06.png" alt="">
+        <img src="./img/shield_1_07.png" alt="">
+        <img src="./img/shield_1_08.png" alt="">
+        <img src="./img/shield_1_09.png" alt="">
+    </div>
+</body>
+
+</html>
