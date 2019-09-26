@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <style>
+        .box {
+            position: fixed;
+            bottom: 70px;
+            right: 70px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+
+            z-index: 1000;
+            text-align: center;
+            border: 2px solid gray;
+            line-height: 50px;
+        }
+
+        i {
+            visibility: hidden;
+            transition: all ease .8s;
+            position: absolute;
+            left: 10px;
+            top: 10px;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+
+        }
+
+
+
+        .box:hover i:first-child {
+            left: -10px;
+            top: -60px;
+            visibility: visible;
+        }
+
+
+
+        .box:hover i:nth-child(2) {
+            left: -50px;
+            top: -40px;
+            visibility: visible;
+        }
+
+
+
+        .box:hover i:nth-child(3) {
+            left: -75px;
+            top: 0px;
+            visibility: visible;
+        }
+
+
+
+        .box:hover i:nth-child(4) {
+            left: -60px;
+            top: 40px;
+            visibility: visible;
+        }
+
+
+
+        .box:hover i:nth-child(5) {
+            left: -10px;
+            top: 70px;
+            visibility: visible;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="box fa fa-align-left fa-2x">
+            <i class="fa fa-camera-retro "></i>
+            <i class="fa fa-opera "></i>
+            <i class="fa fa-odnoklassniki "></i>
+            <i class="fa fa-apple "></i>
+            <i class="fa fa-amazon "></i>
+        </div>
+    </div>
+</body>
+
+</html>

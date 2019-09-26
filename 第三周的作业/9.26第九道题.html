@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        var a = prompt('请输入一个数字帮你判断是否为质数');
+        var b = 0;
+        for (var j = 1; j <= a; j++) {
+            if (a % j == 0) {
+                b++;
+            }
+            //j小于等于17 
+        }
+        if (b === 2) {
+            alert('这是一个质数');
+        } else {
+            alert('这不是一个质数');
+        }
+
+
+    </script>
+</body>
+
+</html>

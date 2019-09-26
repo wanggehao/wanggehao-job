@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var a = prompt('请输入数字')
+        var b = 5;
+        var c = 6;
+        if (a % b === 0 && a % c === 0) {
+            alert('该数字既能被5整除也能被6整除')
+        } else if (a % b === 0) {
+            alert('该数字能被5整除')
+        } else if (a % c === 0) {
+            alert('该数字能被6整数')
+        } else if (a % b !== 0 && a % c !== 0) {
+            alert('该数字不能被5和6整除')
+        }
+
+
+
+    </script>
+</body>
+
+</html>
