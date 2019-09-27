@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var year = 2018;
+        var month = 9;
+        var tian = 3;
+        var day = 0;
+        var date = 0;
+        for (j = 1; j < month; j++) {
+            if (j === 1 || j === 3 || j === 5 || j === 7 || j === 8 || j === 10 || j === 12) {
+                day = 31;
+                date = day + date;
+            } else if (j === 4 || j === 6 || j === 9 || j === 11) {
+                day = 30;
+                date = day + date;
+            } else if (year % 4 === 0 && year % 100 !== 0 || year % 400 === 0) {
+                day = 29;
+                date = day + date;
+            } else {
+                day = 28;
+                date = day + date;
+            }
+        }
+        console.log(date + tian)
+    </script>
+</body>
+
+</html>
